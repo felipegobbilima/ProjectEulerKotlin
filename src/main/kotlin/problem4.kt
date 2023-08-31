@@ -1,6 +1,6 @@
 fun main(){
     var palindrome = f (100, 999)
-    println("$palindrome")
+    println("${palindrome}")
 }
 
 fun f(comeco: Int, fim: Int): Int{
