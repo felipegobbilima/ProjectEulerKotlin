@@ -12,7 +12,7 @@ fun main() {
 
     var soma = 0
 
-    for (n in 1 until 4000000) {
+    for (n in 1 .. 4000000) {
         val fib = fib(n)
         if (fib >= 4000000) break
         if (fib % 2 == 0) soma += fib
